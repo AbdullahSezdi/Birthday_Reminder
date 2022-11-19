@@ -1,0 +1,20 @@
+body{
+    background-color: red;
+}
+
+.container{
+    height: 575px;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    flex-direction: row;
+}
+
+.img-ppl{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
