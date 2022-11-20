@@ -11,11 +11,10 @@ function App() {
     <div className="App">
 
         <div className="container">
-        <h3>Birthdays today</h3>
-        <List people={people}></List>
-        <button >Clear All</button>
+           <h3 className="birthdays">{people.length} birthdays today</h3>
+           <List people={people}></List>
+           <button className="btn-clear">Clear All</button>
 
-        
         
         </div>
 

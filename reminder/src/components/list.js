@@ -13,7 +13,7 @@ const List = ({people}) =>{
             return(
                 <article key={id} className="person">
                     <img src={image} className="img-ppl"></img>
-                    <div>
+                    <div className="content">
                         <h4>{name}</h4>
                         <p>{age} years</p>
                     </div>
