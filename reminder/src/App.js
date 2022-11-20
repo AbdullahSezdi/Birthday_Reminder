@@ -7,13 +7,16 @@ function App() {
 
   const[people,setPeople]=useState(Data)
   
+
+
+
   return (
     <div className="App">
 
         <div className="container">
            <h3 className="birthdays">{people.length} birthdays today</h3>
            <List people={people}></List>
-           <button className="btn-clear">Clear All</button>
+           <button className="btn-clear" onClick={()=> setPeople([])}>Clear All</button>
 
         
         </div>
